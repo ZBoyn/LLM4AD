@@ -5,12 +5,13 @@ from . import (
     eoh,
     meoh,
     moead,
-    nsga2
+    nsga2,
+    evo_mcts
 )
 
 # try to import reevo
 try:
-    from . import reevo
+    from . import reevo, evo_mcts
 except ImportError:
     pass
 
